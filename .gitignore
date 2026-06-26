@@ -25,3 +25,7 @@ dist/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Project-specific folders
+old_notebooks/
+team_logos/
