@@ -1,4 +1,4 @@
-# AFCON 2023 Final — Match Analysis Dashboard
+# AFCON 2023 Final  - Match Analysis Dashboard
 
 A Python-based football analytics dashboard for the 2023 Africa Cup of Nations Final: **Nigeria 1 – 2 Côte d'Ivoire** (February 11, 2024), built using StatsBomb open event data and `mplsoccer`.
 
@@ -114,10 +114,9 @@ Cumulative xG is plotted against match minute for both teams. Goal events are ma
 
 The dashboard is currently built around this specific match. A planned next step is to automate the pipeline so that it can generate the full dashboard for **any match available in the StatsBomb Open Data catalogue** with minimal manual input. The intended workflow is:
 
-1. The user provides a competition name, season, and match (or match ID) — either via a config file or simple command-line arguments.
+1. The user provides a competition name, season, and match (or match ID) - either via a config file or simple command-line arguments.
 2. The pipeline automatically fetches the correct event data, resolves team names and colours, and runs all the necessary visualisation functions.
 3. The completed dashboard is saved to the `images/` folder, named after the match and date.
-
 This would make the tool reusable across all StatsBomb-covered competitions,including the Premier League, UCL, FIFA World Cup, and more.
 ---
 
