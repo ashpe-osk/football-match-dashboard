@@ -117,7 +117,7 @@ The dashboard is currently built around this specific match. A planned next step
 1. The user provides a competition name, season, and match (or match ID) - either via a config file or simple command-line arguments.
 2. The pipeline automatically fetches the correct event data, resolves team names and colours, and runs all the necessary visualisation functions.
 3. The completed dashboard is saved to the `images/` folder, named after the match and date.
-This would make the tool reusable across all StatsBomb-covered competitions,including the Premier League, UCL, FIFA World Cup, and more.
+   
 ---
 
 ## Credits
