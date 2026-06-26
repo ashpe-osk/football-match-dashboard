@@ -48,7 +48,7 @@ All data is sourced from **StatsBomb Open Data**, accessed via the `statsbombpy`
 | Season ID | 107 |
 | Match ID | 3923881 |
 
-No API key or subscription is required — StatsBomb provides this data for free.
+No API key or subscription is required. StatsBomb provides this data for free.
 
 ---
 
